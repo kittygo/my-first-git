@@ -1,0 +1,52 @@
+print(hi {one} how are you{two}).format(one=num,two=name)
+
+my_list = ['a','b','c']
+my_list.append('d')
+
+//tupples				we cannot change the tupple values
+t=(1,2,3)
+
+//sets
+{1,2,3}
+
+
+//loops
+if () :
+	//statements
+
+if():
+elif():
+else:
+
+
+x = [1,2,3,4]
+[item**2 for item in x]
+
+
+"""comments"""
+
+
+//functions
+
+def myfn(pa='default'):
+	print(pa)
+
+			def sqr(n):
+				reutrn n**2
+
+			list(map(sqr,seq))
+
+			list(map(lambda var: var*2,seq))
+
+			list(filter(lambda item: item%2 == 0,seq))
+			list(filter(lambda word: word[0]=='s',seq))
+
+
+def domainGet(email):
+    return email.split('@')[-1]	
+
+
+//numpy
+
+
+
